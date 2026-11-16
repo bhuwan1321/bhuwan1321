@@ -1,47 +1,33 @@
-# bhuwan1321
+<h1 align="center">bhuwan1321</h1>
 
-Student developer working on full-stack applications, machine learning, and DevSecOps tooling.
-I build projects end to end: design, implementation, tests, CI and documentation.
+<p align="center"><b>Student developer building full-stack applications, machine learning systems and DevSecOps tooling.</b><br>
+Projects built end to end: design, implementation, tests, CI and documentation.</p>
 
-## Focus
+<p align="center">
+  <a href="#projects"><b>Projects</b></a> ·
+  <a href="#what-i-work-on"><b>What I work on</b></a> ·
+  <a href="#skills"><b>Skills</b></a> ·
+  <a href="#currently-working-on"><b>Currently working on</b></a>
+</p>
 
-- **DevSecOps:** automated security scanning in CI, container and infrastructure-as-code checks, secrets detection
-- **Backend and full-stack:** REST APIs, relational databases, React and Next.js front ends
-- **Applied machine learning:** model training, evaluation and serving behind a web API
-- **Local-first systems:** services that run on your own machine with no required cloud account
+## What I work on
 
-## Selected projects
+| Area | What it involves |
+|---|---|
+| **DevSecOps** | Automated security scanning in CI, container and infrastructure-as-code checks, secrets detection |
+| **Backend and full-stack** | REST APIs, relational databases, React and Next.js front ends |
+| **Applied machine learning** | Model training, evaluation and serving behind a web API |
+| **Local-first systems** | Services that run on your own machine with no required cloud account |
 
-### [aim-os](https://github.com/bhuwan1321/aim-os)
-A personal AI memory system: persistent vector and relational memory, automatic research, voice interface and a web dashboard.
-- Fourteen compose services coordinated over a Redis event bus; Qdrant for vectors, PostgreSQL for relational data, Ollama for local models
-- Every port bound to localhost, cross-site writes refused, private-address blocking in the browser agent
-- Automated test cycle covering contracts, data round trips, security, performance and chaos recovery
-- Python, Docker, Redis, PostgreSQL, Qdrant, Ollama
+## Projects
 
-### [vulnerability-scanning-pipeline](https://github.com/bhuwan1321/vulnerability-scanning-pipeline)
-A team DevSecOps project that I extended into one repeatable workflow running seven open-source scanners: Semgrep, pip-audit, TruffleHog, Gitleaks, Trivy, Checkov and Bandit.
-- The same script runs locally, in Docker and in GitHub Actions, with thresholds set in one config file
-- SARIF upload to the Security tab, per-scan report artifacts and an in-app results API
-- Found and fixed real findings in its own container image
-- Python, Flask, Docker, GitHub Actions
-
-### [task-manager](https://github.com/bhuwan1321/task-manager)
-A full-stack task manager with due dates, overdue detection, filtering and a statistics dashboard.
-- REST API on Express with parameterized PostgreSQL queries and server-side validation
-- React and Vite front end; tested end to end against a real database
-- React, Node.js, Express, PostgreSQL
-
-### [engineer-dashboard](https://github.com/bhuwan1321/engineer-dashboard)
-A personal dashboard for tracking fitness, DSA practice, academics and career tasks.
-- Firestore security rules restrict every collection to the signed-in owner's documents
-- Next.js, TypeScript, Firebase
-
-### [ipl_score_predictor](https://github.com/bhuwan1321/ipl_score_predictor)
-Predicts IPL first-innings scores and win probability with gradient boosting, trained on 278,000+ ball-by-ball records (2008 to 2025).
-- Reported MAE of about 16 runs and R² of about 0.56 on held-out matches
-- Flask API with input validation; dependency versions pinned to match the saved model
-- Python, scikit-learn, Flask
+| Project | What it is | Highlights |
+|---|---|---|
+| [**aim-os**](https://github.com/bhuwan1321/aim-os) | A personal AI memory system with persistent vector and relational memory, automatic research, a voice interface and a web dashboard | Fourteen compose services on a Redis event bus; Qdrant, PostgreSQL and Ollama; localhost-only ports; automated test cycle including chaos recovery |
+| [**vulnerability-scanning-pipeline**](https://github.com/bhuwan1321/vulnerability-scanning-pipeline) | A team DevSecOps project I extended into one workflow running seven open-source scanners | One script for local, Docker and GitHub Actions runs; shared threshold config; SARIF upload; in-app results API |
+| [**task-manager**](https://github.com/bhuwan1321/task-manager) | A full-stack task manager with due dates, overdue detection and a statistics dashboard | Express REST API with parameterized PostgreSQL queries and server-side validation; tested end to end |
+| [**engineer-dashboard**](https://github.com/bhuwan1321/engineer-dashboard) | A personal dashboard for fitness, DSA practice, academics and career tasks | Firestore security rules limit every collection to its signed-in owner; Next.js and TypeScript |
+| [**ipl_score_predictor**](https://github.com/bhuwan1321/ipl_score_predictor) | Predicts IPL first-innings scores and win probability from 278,000+ ball-by-ball records | Gradient boosting with MAE of about 16 runs and R² of about 0.56; Flask API with input validation |
 
 ## Skills
 
@@ -55,5 +41,5 @@ Predicts IPL first-innings scores and win probability with gradient boosting, tr
 
 ## Currently working on
 
-- Expanding the scanning pipeline with more tests and stricter, triaged IaC checks
+- Expanding the scanning pipeline with more tests and stricter, triaged infrastructure-as-code checks
 - Preparing AIM OS for open-source use: setup documentation, tests and a clean install path
