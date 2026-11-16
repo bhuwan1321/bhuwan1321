@@ -4,6 +4,7 @@
 Projects built end to end: design, implementation, tests, CI and documentation.</p>
 
 <p align="center">
+  <a href="https://rbk-portfolio.vercel.app/"><b>Portfolio</b></a> ·
   <a href="#projects"><b>Projects</b></a> ·
   <a href="#what-i-work-on"><b>What I work on</b></a> ·
   <a href="#skills"><b>Skills</b></a> ·
