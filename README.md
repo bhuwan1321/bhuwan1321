@@ -31,13 +31,13 @@ Projects built end to end: design, implementation, tests, CI and documentation.<
 
 ## Skills
 
-| Area | Tools |
+| Area | Stack |
 |---|---|
-| Languages | Python, JavaScript, TypeScript, Java, HTML, CSS |
-| Back end | Node.js, Express, Flask, REST APIs, PostgreSQL, Redis |
-| Front end | React, Next.js, Vite |
-| DevOps and security | Docker, GitHub Actions, Semgrep, Trivy, Checkov, Gitleaks, Bandit |
-| Data and ML | scikit-learn, pandas, NumPy, Qdrant, Ollama |
+| **Languages** | <img src="https://skillicons.dev/icons?i=py,js,ts,java,html,css&perline=6" alt="Python, JavaScript, TypeScript, Java, HTML, CSS" height="48"> |
+| **Back end** | <img src="https://skillicons.dev/icons?i=nodejs,express,flask,postgres,redis,firebase&perline=6" alt="Node.js, Express, Flask, PostgreSQL, Redis, Firebase" height="48"><br>REST APIs |
+| **Front end** | <img src="https://skillicons.dev/icons?i=react,nextjs,vite&perline=3" alt="React, Next.js, Vite" height="48"> |
+| **DevOps and security** | <img src="https://skillicons.dev/icons?i=docker,githubactions,git,github&perline=4" alt="Docker, GitHub Actions, Git, GitHub" height="48"><br>Semgrep, Trivy, Checkov, Gitleaks, Bandit |
+| **Data and ML** | <img src="https://skillicons.dev/icons?i=sklearn&perline=1" alt="scikit-learn" height="48"><br>pandas, NumPy, Qdrant, Ollama |
 
 ## Currently working on
 
